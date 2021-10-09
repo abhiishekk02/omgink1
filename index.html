@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omega Ink Writing</title>
+    <!--links starts from here-->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- links ends here -->
+    <!-- scroll script starts here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+    </script>
+    <!-- scroll script ends here -->
+  </head>
+  <body>
+    <!-- navbar starts from here -->
+    <div class="navbar">
+      <div class="brand" id="Home" style="font-family: 'lobster'">
+        <h1>Omega !nk</h1>
+      </div>
+      <div>
+        <a class="navmenu" id="m1" href="#ContactUs">ContactUs</a>
+        <a class="navmenu" id="m1" href="#AboutUs">AboutUs</a>
+        <a class="navmenu" id="m1" href="#poems">Poems</a>
+        <a class="navmenu" id="m1" href="#">Home</a>
+      </div>
+    </div>
+    <!-- navbar ends here -->
+    <!-- first page starts from here -->
+    <div class="firstpage">
+      <img
+        style="
+          width: 100%;
+          height: 94vh;
+          float: left;
+          opacity: 0.8;
+          padding-bottom: 1rem;
+        "
+        src="./images/f2bg.jpg"
+        alt="firstpagebg"
+      />
+      <div class="intro">
+        <h1>Welcome To The World Of Omega!</h1>
+        <h4>Hey there! I'm Rinish Reddy! <br />Swipe Up ⬆</h4>
+      </div>
+    </div>
+    <!-- first page ends here -->
+    <!-- second page starts here -->
+    <div class="secondpage">
+      <div id="Poems1" class="titleofthepage">
+        <h2>
+          <a href="#Home">
+            <span style="float: left; margin-left: 1rem; color: black"
+              >⬆</span
+            > </a
+          >Poems
+          <a href="#AboutUs"
+            ><span style="float: right; margin-right: 1rem; color: black"
+              >⬇</span
+            ></a
+          >
+        </h2>
+      </div>
+      <div class="bg2">
+        <img
+          style="
+            width: 100%;
+            height: 93vh;
+            float: left;
+            opacity: 0.8;
+            position: absolute;
+          "
+          src="./images/2.jpg"
+          alt="secondpagebg"
+        />
+      </div>
+      <div id="poems" class="poems" style="padding-bottom: 6rem">
+        <div class="b1">
+          <p class="poemtext" style="padding: 1rem">my first poem box1</p>
+        </div>
+        <div class="b1">
+          <p class="poemtext" style="padding: 1rem">my first poem box2</p>
+        </div>
+        <div class="b1">
+          <p class="poemtext" style="padding: 1rem">my first poem box3</p>
+        </div>
+
+        <div class="b1" style="float: none">
+          <p class="poemtext" style="padding: 1rem">my first poem box4</p>
+        </div>
+        <div class="b1">
+          <p class="poemtext" style="padding: 1rem">my first poem box5</p>
+        </div>
+        <div class="b1">
+          <p class="poemtext" style="padding: 1rem">my first poem box6</p>
+        </div>
+        <div class="b1">
+          <p class="poemtext" style="padding: 1rem">my first poem box7</p>
+        </div>
+        <div class="b1">
+          <p class="poemtext" style="padding: 1rem">my first poem box8</p>
+        </div>
+      </div>
+    </div>
+    <!-- Second page ends here -->
+    <!-- Third page starts here -->
+    <div class="thirdpage" id="AboutUs">
+      <div class="titleofthepage" style="padding-bottom: 1rem">
+        <h2>
+          <a href="#poems">
+            <span style="float: left; margin-left: 1rem; color: black"
+              >⬆</span
+            > </a
+          >AboutUs
+          <a href="#ContactUs"
+            ><span style="float: right; margin-right: 1rem; color: black"
+              >⬇</span
+            ></a
+          >
+        </h2>
+      </div>
+      <div class="bg3">
+        <img
+          src="./images/3.jpg"
+          alt="3rdpagebg"
+          style="
+            width: 100%;
+            height: 93vh;
+            float: left;
+            opacity: 0.8;
+            /* position: absolute; */
+            padding-bottom: 1rem;
+          "
+        />
+      </div>
+    </div>
+    <!-- Third page ends here -->
+    <!-- Fourth page starts here -->
+    <div class="fourthpage" id="ContactUs">
+      <div class="titleofthepage">
+        <h2>
+          <a href="#AboutUs">
+            <span style="float: left; margin-left: 1rem; color: black"
+              >⬆</span
+            > </a
+          >ContactUs
+          <a href="#Home"
+            ><span style="float: right; margin-right: 1rem; color: black"
+              >⬇</span
+            ></a
+          >
+        </h2>
+      </div>
+      <div style="color: white; text-align: center" class="bg3">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </div>
+    <!-- Fourth page ends here  -->
+  </body>
+</html>

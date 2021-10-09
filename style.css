@@ -1,0 +1,136 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  scroll-behavior: smooth;
+  /* background-image: linear-gradient(
+    68.6deg,
+    rgba(252, 165, 241, 1) 1.8%,
+    rgba(181, 255, 255, 1) 100.5%
+  ); */
+}
+/* navbar starts here */
+
+.brand {
+  font-size: medium;
+  color: white;
+  padding-top: 0.8rem;
+  padding-left: 1rem;
+  float: left;
+}
+
+.navmenu {
+  text-decoration: none;
+  float: right;
+  font-size: 1.2rem;
+  color: white;
+  font-family: lobster;
+  margin-right: 1rem;
+  margin-top: 0.8rem;
+  padding: 0.5rem;
+}
+/* #m1 {
+  background-color: white;
+  border-radius: 1rem;
+  margin-top: 0.8rem;
+  text-align: center;
+  padding: 0.5rem;
+} */
+.navmenu:hover {
+  opacity: 0.8;
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+  margin-top: 0.8rem;
+  text-align: center;
+  padding: 0.5rem;
+  transition: 0.5s ease-in-out;
+}
+
+.navbar {
+  height: 4rem;
+  width: 100%;
+  background-color: rgb(122, 117, 117);
+}
+/* navbar ends here */
+
+/* first page starts from here */
+.intro {
+  text-align: center;
+  margin-left: 28%;
+  margin-right: 28%;
+  margin-top: 20%;
+  position: absolute;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+/* first page ends here */
+
+/* second page starts from here */
+.titleofthepage {
+  text-align: center;
+  font-family: lobster;
+  padding-bottom: 1rem;
+  /* background-image: url(./video/loginbg.mp4);
+  margin-top: 47.7rem;
+  width: 100%;
+  color: white; */
+}
+
+/*poems section starts from here  */
+
+.b1 {
+  width: 16rem;
+  height: 20rem;
+  background-color: white;
+  opacity: 0.4;
+
+  margin-left: 4rem;
+  margin-top: 3rem;
+  border-radius: 20px;
+
+  display: inline-block;
+  transition: all 0.6s ease;
+  margin-top: 2rem;
+}
+
+.b1:hover {
+  opacity: 0.8;
+  font-size: 18px;
+  background-color: skyblue;
+  color: white;
+  transition: 0.6s;
+  width: 16.3rem;
+  height: 20.3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
